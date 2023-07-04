@@ -133,514 +133,604 @@
             // 
             this.panel1.BackColor = System.Drawing.Color.Silver;
             this.panel1.Controls.Add(this.letter11);
-            this.panel1.Location = new System.Drawing.Point(24, 46);
+            this.panel1.Location = new System.Drawing.Point(18, 37);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(50, 50);
+            this.panel1.Size = new System.Drawing.Size(38, 41);
             this.panel1.TabIndex = 1;
+            this.panel1.Tag = "Panels";
             // 
             // letter11
             // 
             this.letter11.AutoSize = true;
-            this.letter11.Location = new System.Drawing.Point(22, 22);
+            this.letter11.Location = new System.Drawing.Point(16, 18);
+            this.letter11.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.letter11.Name = "letter11";
-            this.letter11.Size = new System.Drawing.Size(0, 16);
+            this.letter11.Size = new System.Drawing.Size(0, 13);
             this.letter11.TabIndex = 0;
             // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.Silver;
             this.panel2.Controls.Add(this.letter12);
-            this.panel2.Location = new System.Drawing.Point(89, 46);
+            this.panel2.Location = new System.Drawing.Point(67, 37);
+            this.panel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(50, 50);
+            this.panel2.Size = new System.Drawing.Size(38, 41);
             this.panel2.TabIndex = 2;
+            this.panel2.Tag = "Panels";
             // 
             // letter12
             // 
             this.letter12.AutoSize = true;
-            this.letter12.Location = new System.Drawing.Point(18, 22);
+            this.letter12.Location = new System.Drawing.Point(14, 18);
+            this.letter12.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.letter12.Name = "letter12";
-            this.letter12.Size = new System.Drawing.Size(0, 16);
+            this.letter12.Size = new System.Drawing.Size(0, 13);
             this.letter12.TabIndex = 0;
             // 
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.Silver;
             this.panel3.Controls.Add(this.letter13);
-            this.panel3.Location = new System.Drawing.Point(156, 46);
+            this.panel3.Location = new System.Drawing.Point(117, 37);
+            this.panel3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(50, 50);
+            this.panel3.Size = new System.Drawing.Size(38, 41);
             this.panel3.TabIndex = 3;
+            this.panel3.Tag = "Panels";
             // 
             // letter13
             // 
             this.letter13.AutoSize = true;
-            this.letter13.Location = new System.Drawing.Point(19, 22);
+            this.letter13.Location = new System.Drawing.Point(14, 18);
+            this.letter13.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.letter13.Name = "letter13";
-            this.letter13.Size = new System.Drawing.Size(0, 16);
+            this.letter13.Size = new System.Drawing.Size(0, 13);
             this.letter13.TabIndex = 0;
             // 
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.Silver;
             this.panel4.Controls.Add(this.letter14);
-            this.panel4.Location = new System.Drawing.Point(221, 46);
+            this.panel4.Location = new System.Drawing.Point(166, 37);
+            this.panel4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(50, 50);
+            this.panel4.Size = new System.Drawing.Size(38, 41);
             this.panel4.TabIndex = 4;
+            this.panel4.Tag = "Panels";
             // 
             // letter14
             // 
             this.letter14.AutoSize = true;
-            this.letter14.Location = new System.Drawing.Point(21, 22);
+            this.letter14.Location = new System.Drawing.Point(16, 18);
+            this.letter14.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.letter14.Name = "letter14";
-            this.letter14.Size = new System.Drawing.Size(0, 16);
+            this.letter14.Size = new System.Drawing.Size(0, 13);
             this.letter14.TabIndex = 0;
             // 
             // panel5
             // 
             this.panel5.BackColor = System.Drawing.Color.Silver;
             this.panel5.Controls.Add(this.letter15);
-            this.panel5.Location = new System.Drawing.Point(287, 46);
+            this.panel5.Location = new System.Drawing.Point(215, 37);
+            this.panel5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(50, 50);
+            this.panel5.Size = new System.Drawing.Size(38, 41);
             this.panel5.TabIndex = 5;
+            this.panel5.Tag = "Panels";
             // 
             // letter15
             // 
             this.letter15.AutoSize = true;
-            this.letter15.Location = new System.Drawing.Point(19, 21);
+            this.letter15.Location = new System.Drawing.Point(14, 17);
+            this.letter15.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.letter15.Name = "letter15";
-            this.letter15.Size = new System.Drawing.Size(0, 16);
+            this.letter15.Size = new System.Drawing.Size(0, 13);
             this.letter15.TabIndex = 0;
             // 
             // panel10
             // 
             this.panel10.BackColor = System.Drawing.Color.Silver;
             this.panel10.Controls.Add(this.letter25);
-            this.panel10.Location = new System.Drawing.Point(287, 118);
+            this.panel10.Location = new System.Drawing.Point(215, 96);
+            this.panel10.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(50, 50);
+            this.panel10.Size = new System.Drawing.Size(38, 41);
             this.panel10.TabIndex = 10;
+            this.panel10.Tag = "Panels";
             // 
             // letter25
             // 
             this.letter25.AutoSize = true;
-            this.letter25.Location = new System.Drawing.Point(19, 21);
+            this.letter25.Location = new System.Drawing.Point(14, 17);
+            this.letter25.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.letter25.Name = "letter25";
-            this.letter25.Size = new System.Drawing.Size(0, 16);
+            this.letter25.Size = new System.Drawing.Size(0, 13);
             this.letter25.TabIndex = 0;
             // 
             // panel9
             // 
             this.panel9.BackColor = System.Drawing.Color.Silver;
             this.panel9.Controls.Add(this.letter24);
-            this.panel9.Location = new System.Drawing.Point(221, 118);
+            this.panel9.Location = new System.Drawing.Point(166, 96);
+            this.panel9.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(50, 50);
+            this.panel9.Size = new System.Drawing.Size(38, 41);
             this.panel9.TabIndex = 9;
+            this.panel9.Tag = "Panels";
             // 
             // letter24
             // 
             this.letter24.AutoSize = true;
-            this.letter24.Location = new System.Drawing.Point(21, 22);
+            this.letter24.Location = new System.Drawing.Point(16, 18);
+            this.letter24.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.letter24.Name = "letter24";
-            this.letter24.Size = new System.Drawing.Size(0, 16);
+            this.letter24.Size = new System.Drawing.Size(0, 13);
             this.letter24.TabIndex = 0;
             // 
             // panel8
             // 
             this.panel8.BackColor = System.Drawing.Color.Silver;
             this.panel8.Controls.Add(this.letter23);
-            this.panel8.Location = new System.Drawing.Point(156, 118);
+            this.panel8.Location = new System.Drawing.Point(117, 96);
+            this.panel8.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(50, 50);
+            this.panel8.Size = new System.Drawing.Size(38, 41);
             this.panel8.TabIndex = 8;
+            this.panel8.Tag = "Panels";
             // 
             // letter23
             // 
             this.letter23.AutoSize = true;
-            this.letter23.Location = new System.Drawing.Point(19, 22);
+            this.letter23.Location = new System.Drawing.Point(14, 18);
+            this.letter23.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.letter23.Name = "letter23";
-            this.letter23.Size = new System.Drawing.Size(0, 16);
+            this.letter23.Size = new System.Drawing.Size(0, 13);
             this.letter23.TabIndex = 0;
             // 
             // panel7
             // 
             this.panel7.BackColor = System.Drawing.Color.Silver;
             this.panel7.Controls.Add(this.letter22);
-            this.panel7.Location = new System.Drawing.Point(89, 118);
+            this.panel7.Location = new System.Drawing.Point(67, 96);
+            this.panel7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(50, 50);
+            this.panel7.Size = new System.Drawing.Size(38, 41);
             this.panel7.TabIndex = 7;
+            this.panel7.Tag = "Panels";
             // 
             // letter22
             // 
             this.letter22.AutoSize = true;
             this.letter22.BackColor = System.Drawing.Color.Transparent;
-            this.letter22.Location = new System.Drawing.Point(18, 22);
+            this.letter22.Location = new System.Drawing.Point(14, 18);
+            this.letter22.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.letter22.Name = "letter22";
-            this.letter22.Size = new System.Drawing.Size(0, 16);
+            this.letter22.Size = new System.Drawing.Size(0, 13);
             this.letter22.TabIndex = 0;
             // 
             // panel6
             // 
             this.panel6.BackColor = System.Drawing.Color.Silver;
             this.panel6.Controls.Add(this.letter21);
-            this.panel6.Location = new System.Drawing.Point(24, 118);
+            this.panel6.Location = new System.Drawing.Point(18, 96);
+            this.panel6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(50, 50);
+            this.panel6.Size = new System.Drawing.Size(38, 41);
             this.panel6.TabIndex = 6;
+            this.panel6.Tag = "Panels";
             // 
             // letter21
             // 
             this.letter21.AutoSize = true;
-            this.letter21.Location = new System.Drawing.Point(22, 22);
+            this.letter21.Location = new System.Drawing.Point(16, 18);
+            this.letter21.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.letter21.Name = "letter21";
-            this.letter21.Size = new System.Drawing.Size(0, 16);
+            this.letter21.Size = new System.Drawing.Size(0, 13);
             this.letter21.TabIndex = 0;
             // 
             // panel20
             // 
             this.panel20.BackColor = System.Drawing.Color.Silver;
             this.panel20.Controls.Add(this.letter45);
-            this.panel20.Location = new System.Drawing.Point(287, 266);
+            this.panel20.Location = new System.Drawing.Point(215, 216);
+            this.panel20.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel20.Name = "panel20";
-            this.panel20.Size = new System.Drawing.Size(50, 50);
+            this.panel20.Size = new System.Drawing.Size(38, 41);
             this.panel20.TabIndex = 20;
+            this.panel20.Tag = "Panels";
             // 
             // letter45
             // 
             this.letter45.AutoSize = true;
-            this.letter45.Location = new System.Drawing.Point(19, 21);
+            this.letter45.Location = new System.Drawing.Point(14, 17);
+            this.letter45.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.letter45.Name = "letter45";
-            this.letter45.Size = new System.Drawing.Size(0, 16);
+            this.letter45.Size = new System.Drawing.Size(0, 13);
             this.letter45.TabIndex = 0;
             // 
             // panel15
             // 
             this.panel15.BackColor = System.Drawing.Color.Silver;
             this.panel15.Controls.Add(this.letter35);
-            this.panel15.Location = new System.Drawing.Point(287, 189);
+            this.panel15.Location = new System.Drawing.Point(215, 154);
+            this.panel15.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel15.Name = "panel15";
-            this.panel15.Size = new System.Drawing.Size(50, 50);
+            this.panel15.Size = new System.Drawing.Size(38, 41);
             this.panel15.TabIndex = 15;
+            this.panel15.Tag = "Panels";
             // 
             // letter35
             // 
             this.letter35.AutoSize = true;
-            this.letter35.Location = new System.Drawing.Point(19, 21);
+            this.letter35.Location = new System.Drawing.Point(14, 17);
+            this.letter35.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.letter35.Name = "letter35";
-            this.letter35.Size = new System.Drawing.Size(0, 16);
+            this.letter35.Size = new System.Drawing.Size(0, 13);
             this.letter35.TabIndex = 0;
             // 
             // panel19
             // 
             this.panel19.BackColor = System.Drawing.Color.Silver;
             this.panel19.Controls.Add(this.letter44);
-            this.panel19.Location = new System.Drawing.Point(221, 266);
+            this.panel19.Location = new System.Drawing.Point(166, 216);
+            this.panel19.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel19.Name = "panel19";
-            this.panel19.Size = new System.Drawing.Size(50, 50);
+            this.panel19.Size = new System.Drawing.Size(38, 41);
             this.panel19.TabIndex = 19;
+            this.panel19.Tag = "Panels";
             // 
             // letter44
             // 
             this.letter44.AutoSize = true;
-            this.letter44.Location = new System.Drawing.Point(21, 22);
+            this.letter44.Location = new System.Drawing.Point(16, 18);
+            this.letter44.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.letter44.Name = "letter44";
-            this.letter44.Size = new System.Drawing.Size(0, 16);
+            this.letter44.Size = new System.Drawing.Size(0, 13);
             this.letter44.TabIndex = 0;
             // 
             // panel18
             // 
             this.panel18.BackColor = System.Drawing.Color.Silver;
             this.panel18.Controls.Add(this.letter43);
-            this.panel18.Location = new System.Drawing.Point(156, 266);
+            this.panel18.Location = new System.Drawing.Point(117, 216);
+            this.panel18.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel18.Name = "panel18";
-            this.panel18.Size = new System.Drawing.Size(50, 50);
+            this.panel18.Size = new System.Drawing.Size(38, 41);
             this.panel18.TabIndex = 18;
+            this.panel18.Tag = "Panels";
             // 
             // letter43
             // 
             this.letter43.AutoSize = true;
             this.letter43.BackColor = System.Drawing.Color.Transparent;
-            this.letter43.Location = new System.Drawing.Point(19, 22);
+            this.letter43.Location = new System.Drawing.Point(14, 18);
+            this.letter43.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.letter43.Name = "letter43";
-            this.letter43.Size = new System.Drawing.Size(0, 16);
+            this.letter43.Size = new System.Drawing.Size(0, 13);
             this.letter43.TabIndex = 0;
             // 
             // panel14
             // 
             this.panel14.BackColor = System.Drawing.Color.Silver;
             this.panel14.Controls.Add(this.letter34);
-            this.panel14.Location = new System.Drawing.Point(221, 189);
+            this.panel14.Location = new System.Drawing.Point(166, 154);
+            this.panel14.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel14.Name = "panel14";
-            this.panel14.Size = new System.Drawing.Size(50, 50);
+            this.panel14.Size = new System.Drawing.Size(38, 41);
             this.panel14.TabIndex = 14;
+            this.panel14.Tag = "Panels";
             // 
             // letter34
             // 
             this.letter34.AutoSize = true;
-            this.letter34.Location = new System.Drawing.Point(21, 22);
+            this.letter34.Location = new System.Drawing.Point(16, 18);
+            this.letter34.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.letter34.Name = "letter34";
-            this.letter34.Size = new System.Drawing.Size(0, 16);
+            this.letter34.Size = new System.Drawing.Size(0, 13);
             this.letter34.TabIndex = 0;
             // 
             // panel17
             // 
             this.panel17.BackColor = System.Drawing.Color.Silver;
             this.panel17.Controls.Add(this.letter42);
-            this.panel17.Location = new System.Drawing.Point(89, 266);
+            this.panel17.Location = new System.Drawing.Point(67, 216);
+            this.panel17.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel17.Name = "panel17";
-            this.panel17.Size = new System.Drawing.Size(50, 50);
+            this.panel17.Size = new System.Drawing.Size(38, 41);
             this.panel17.TabIndex = 17;
+            this.panel17.Tag = "Panels";
             // 
             // letter42
             // 
             this.letter42.AutoSize = true;
             this.letter42.BackColor = System.Drawing.Color.Transparent;
-            this.letter42.Location = new System.Drawing.Point(18, 22);
+            this.letter42.Location = new System.Drawing.Point(14, 18);
+            this.letter42.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.letter42.Name = "letter42";
-            this.letter42.Size = new System.Drawing.Size(0, 16);
+            this.letter42.Size = new System.Drawing.Size(0, 13);
             this.letter42.TabIndex = 0;
             // 
             // panel13
             // 
             this.panel13.BackColor = System.Drawing.Color.Silver;
             this.panel13.Controls.Add(this.letter33);
-            this.panel13.Location = new System.Drawing.Point(156, 189);
+            this.panel13.Location = new System.Drawing.Point(117, 154);
+            this.panel13.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel13.Name = "panel13";
-            this.panel13.Size = new System.Drawing.Size(50, 50);
+            this.panel13.Size = new System.Drawing.Size(38, 41);
             this.panel13.TabIndex = 13;
+            this.panel13.Tag = "Panels";
             // 
             // letter33
             // 
             this.letter33.AutoSize = true;
-            this.letter33.Location = new System.Drawing.Point(19, 22);
+            this.letter33.Location = new System.Drawing.Point(14, 18);
+            this.letter33.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.letter33.Name = "letter33";
-            this.letter33.Size = new System.Drawing.Size(0, 16);
+            this.letter33.Size = new System.Drawing.Size(0, 13);
             this.letter33.TabIndex = 0;
             // 
             // panel16
             // 
             this.panel16.BackColor = System.Drawing.Color.Silver;
             this.panel16.Controls.Add(this.letter41);
-            this.panel16.Location = new System.Drawing.Point(24, 266);
+            this.panel16.Location = new System.Drawing.Point(18, 216);
+            this.panel16.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel16.Name = "panel16";
-            this.panel16.Size = new System.Drawing.Size(50, 50);
+            this.panel16.Size = new System.Drawing.Size(38, 41);
             this.panel16.TabIndex = 16;
+            this.panel16.Tag = "Panels";
             // 
             // letter41
             // 
             this.letter41.AutoSize = true;
-            this.letter41.Location = new System.Drawing.Point(22, 22);
+            this.letter41.Location = new System.Drawing.Point(16, 18);
+            this.letter41.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.letter41.Name = "letter41";
-            this.letter41.Size = new System.Drawing.Size(0, 16);
+            this.letter41.Size = new System.Drawing.Size(0, 13);
             this.letter41.TabIndex = 0;
             // 
             // panel12
             // 
             this.panel12.BackColor = System.Drawing.Color.Silver;
             this.panel12.Controls.Add(this.letter32);
-            this.panel12.Location = new System.Drawing.Point(89, 189);
+            this.panel12.Location = new System.Drawing.Point(67, 154);
+            this.panel12.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel12.Name = "panel12";
-            this.panel12.Size = new System.Drawing.Size(50, 50);
+            this.panel12.Size = new System.Drawing.Size(38, 41);
             this.panel12.TabIndex = 12;
+            this.panel12.Tag = "Panels";
             // 
             // letter32
             // 
             this.letter32.AutoSize = true;
-            this.letter32.Location = new System.Drawing.Point(18, 22);
+            this.letter32.Location = new System.Drawing.Point(14, 18);
+            this.letter32.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.letter32.Name = "letter32";
-            this.letter32.Size = new System.Drawing.Size(0, 16);
+            this.letter32.Size = new System.Drawing.Size(0, 13);
             this.letter32.TabIndex = 0;
             // 
             // panel11
             // 
             this.panel11.BackColor = System.Drawing.Color.Silver;
             this.panel11.Controls.Add(this.letter31);
-            this.panel11.Location = new System.Drawing.Point(24, 189);
+            this.panel11.Location = new System.Drawing.Point(18, 154);
+            this.panel11.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel11.Name = "panel11";
-            this.panel11.Size = new System.Drawing.Size(50, 50);
+            this.panel11.Size = new System.Drawing.Size(38, 41);
             this.panel11.TabIndex = 11;
+            this.panel11.Tag = "Panels";
             // 
             // letter31
             // 
             this.letter31.AutoSize = true;
-            this.letter31.Location = new System.Drawing.Point(22, 22);
+            this.letter31.Location = new System.Drawing.Point(16, 18);
+            this.letter31.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.letter31.Name = "letter31";
-            this.letter31.Size = new System.Drawing.Size(0, 16);
+            this.letter31.Size = new System.Drawing.Size(0, 13);
             this.letter31.TabIndex = 0;
             // 
             // panel30
             // 
             this.panel30.BackColor = System.Drawing.Color.Silver;
             this.panel30.Controls.Add(this.letter65);
-            this.panel30.Location = new System.Drawing.Point(287, 413);
+            this.panel30.Location = new System.Drawing.Point(215, 336);
+            this.panel30.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel30.Name = "panel30";
-            this.panel30.Size = new System.Drawing.Size(50, 50);
+            this.panel30.Size = new System.Drawing.Size(38, 41);
             this.panel30.TabIndex = 30;
+            this.panel30.Tag = "Panels";
             // 
             // letter65
             // 
             this.letter65.AutoSize = true;
-            this.letter65.Location = new System.Drawing.Point(19, 21);
+            this.letter65.Location = new System.Drawing.Point(14, 17);
+            this.letter65.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.letter65.Name = "letter65";
-            this.letter65.Size = new System.Drawing.Size(0, 16);
+            this.letter65.Size = new System.Drawing.Size(0, 13);
             this.letter65.TabIndex = 0;
             // 
             // panel25
             // 
             this.panel25.BackColor = System.Drawing.Color.Silver;
             this.panel25.Controls.Add(this.letter55);
-            this.panel25.Location = new System.Drawing.Point(287, 336);
+            this.panel25.Location = new System.Drawing.Point(215, 273);
+            this.panel25.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel25.Name = "panel25";
-            this.panel25.Size = new System.Drawing.Size(50, 50);
+            this.panel25.Size = new System.Drawing.Size(38, 41);
             this.panel25.TabIndex = 25;
+            this.panel25.Tag = "Panels";
             // 
             // letter55
             // 
             this.letter55.AutoSize = true;
-            this.letter55.Location = new System.Drawing.Point(19, 21);
+            this.letter55.Location = new System.Drawing.Point(14, 17);
+            this.letter55.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.letter55.Name = "letter55";
-            this.letter55.Size = new System.Drawing.Size(0, 16);
+            this.letter55.Size = new System.Drawing.Size(0, 13);
             this.letter55.TabIndex = 0;
             // 
             // panel29
             // 
             this.panel29.BackColor = System.Drawing.Color.Silver;
             this.panel29.Controls.Add(this.letter64);
-            this.panel29.Location = new System.Drawing.Point(221, 413);
+            this.panel29.Location = new System.Drawing.Point(166, 336);
+            this.panel29.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel29.Name = "panel29";
-            this.panel29.Size = new System.Drawing.Size(50, 50);
+            this.panel29.Size = new System.Drawing.Size(38, 41);
             this.panel29.TabIndex = 29;
+            this.panel29.Tag = "Panels";
             // 
             // letter64
             // 
             this.letter64.AutoSize = true;
-            this.letter64.Location = new System.Drawing.Point(21, 22);
+            this.letter64.Location = new System.Drawing.Point(16, 18);
+            this.letter64.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.letter64.Name = "letter64";
-            this.letter64.Size = new System.Drawing.Size(0, 16);
+            this.letter64.Size = new System.Drawing.Size(0, 13);
             this.letter64.TabIndex = 0;
             // 
             // panel28
             // 
             this.panel28.BackColor = System.Drawing.Color.Silver;
             this.panel28.Controls.Add(this.letter63);
-            this.panel28.Location = new System.Drawing.Point(156, 413);
+            this.panel28.Location = new System.Drawing.Point(117, 336);
+            this.panel28.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel28.Name = "panel28";
-            this.panel28.Size = new System.Drawing.Size(50, 50);
+            this.panel28.Size = new System.Drawing.Size(38, 41);
             this.panel28.TabIndex = 28;
+            this.panel28.Tag = "Panels";
             // 
             // letter63
             // 
             this.letter63.AutoSize = true;
-            this.letter63.Location = new System.Drawing.Point(19, 22);
+            this.letter63.Location = new System.Drawing.Point(14, 18);
+            this.letter63.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.letter63.Name = "letter63";
-            this.letter63.Size = new System.Drawing.Size(0, 16);
+            this.letter63.Size = new System.Drawing.Size(0, 13);
             this.letter63.TabIndex = 0;
             // 
             // panel24
             // 
             this.panel24.BackColor = System.Drawing.Color.Silver;
             this.panel24.Controls.Add(this.letter54);
-            this.panel24.Location = new System.Drawing.Point(221, 336);
+            this.panel24.Location = new System.Drawing.Point(166, 273);
+            this.panel24.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel24.Name = "panel24";
-            this.panel24.Size = new System.Drawing.Size(50, 50);
+            this.panel24.Size = new System.Drawing.Size(38, 41);
             this.panel24.TabIndex = 24;
+            this.panel24.Tag = "Panels";
             // 
             // letter54
             // 
             this.letter54.AutoSize = true;
-            this.letter54.Location = new System.Drawing.Point(21, 22);
+            this.letter54.Location = new System.Drawing.Point(16, 18);
+            this.letter54.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.letter54.Name = "letter54";
-            this.letter54.Size = new System.Drawing.Size(0, 16);
+            this.letter54.Size = new System.Drawing.Size(0, 13);
             this.letter54.TabIndex = 0;
             // 
             // panel27
             // 
             this.panel27.BackColor = System.Drawing.Color.Silver;
             this.panel27.Controls.Add(this.letter62);
-            this.panel27.Location = new System.Drawing.Point(89, 413);
+            this.panel27.Location = new System.Drawing.Point(67, 336);
+            this.panel27.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel27.Name = "panel27";
-            this.panel27.Size = new System.Drawing.Size(50, 50);
+            this.panel27.Size = new System.Drawing.Size(38, 41);
             this.panel27.TabIndex = 27;
+            this.panel27.Tag = "Panels";
             // 
             // letter62
             // 
             this.letter62.AutoSize = true;
-            this.letter62.Location = new System.Drawing.Point(18, 22);
+            this.letter62.Location = new System.Drawing.Point(14, 18);
+            this.letter62.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.letter62.Name = "letter62";
-            this.letter62.Size = new System.Drawing.Size(0, 16);
+            this.letter62.Size = new System.Drawing.Size(0, 13);
             this.letter62.TabIndex = 0;
             // 
             // panel23
             // 
             this.panel23.BackColor = System.Drawing.Color.Silver;
             this.panel23.Controls.Add(this.letter53);
-            this.panel23.Location = new System.Drawing.Point(156, 336);
+            this.panel23.Location = new System.Drawing.Point(117, 273);
+            this.panel23.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel23.Name = "panel23";
-            this.panel23.Size = new System.Drawing.Size(50, 50);
+            this.panel23.Size = new System.Drawing.Size(38, 41);
             this.panel23.TabIndex = 23;
+            this.panel23.Tag = "Panels";
             // 
             // letter53
             // 
             this.letter53.AutoSize = true;
-            this.letter53.Location = new System.Drawing.Point(19, 22);
+            this.letter53.Location = new System.Drawing.Point(14, 18);
+            this.letter53.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.letter53.Name = "letter53";
-            this.letter53.Size = new System.Drawing.Size(0, 16);
+            this.letter53.Size = new System.Drawing.Size(0, 13);
             this.letter53.TabIndex = 0;
             // 
             // panel26
             // 
             this.panel26.BackColor = System.Drawing.Color.Silver;
             this.panel26.Controls.Add(this.letter61);
-            this.panel26.Location = new System.Drawing.Point(24, 413);
+            this.panel26.Location = new System.Drawing.Point(18, 336);
+            this.panel26.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel26.Name = "panel26";
-            this.panel26.Size = new System.Drawing.Size(50, 50);
+            this.panel26.Size = new System.Drawing.Size(38, 41);
             this.panel26.TabIndex = 26;
+            this.panel26.Tag = "Panels";
             // 
             // letter61
             // 
             this.letter61.AutoSize = true;
-            this.letter61.Location = new System.Drawing.Point(22, 22);
+            this.letter61.Location = new System.Drawing.Point(16, 18);
+            this.letter61.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.letter61.Name = "letter61";
-            this.letter61.Size = new System.Drawing.Size(0, 16);
+            this.letter61.Size = new System.Drawing.Size(0, 13);
             this.letter61.TabIndex = 0;
             // 
             // panel22
             // 
             this.panel22.BackColor = System.Drawing.Color.Silver;
             this.panel22.Controls.Add(this.letter52);
-            this.panel22.Location = new System.Drawing.Point(89, 336);
+            this.panel22.Location = new System.Drawing.Point(67, 273);
+            this.panel22.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel22.Name = "panel22";
-            this.panel22.Size = new System.Drawing.Size(50, 50);
+            this.panel22.Size = new System.Drawing.Size(38, 41);
             this.panel22.TabIndex = 22;
+            this.panel22.Tag = "Panels";
             // 
             // letter52
             // 
             this.letter52.AutoSize = true;
             this.letter52.BackColor = System.Drawing.Color.Transparent;
-            this.letter52.Location = new System.Drawing.Point(18, 22);
+            this.letter52.Location = new System.Drawing.Point(14, 18);
+            this.letter52.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.letter52.Name = "letter52";
-            this.letter52.Size = new System.Drawing.Size(0, 16);
+            this.letter52.Size = new System.Drawing.Size(0, 13);
             this.letter52.TabIndex = 0;
             // 
             // panel21
             // 
             this.panel21.BackColor = System.Drawing.Color.Silver;
             this.panel21.Controls.Add(this.letter51);
-            this.panel21.Location = new System.Drawing.Point(24, 336);
+            this.panel21.Location = new System.Drawing.Point(18, 273);
+            this.panel21.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel21.Name = "panel21";
-            this.panel21.Size = new System.Drawing.Size(50, 50);
+            this.panel21.Size = new System.Drawing.Size(38, 41);
             this.panel21.TabIndex = 21;
+            this.panel21.Tag = "Panels";
             // 
             // letter51
             // 
             this.letter51.AutoSize = true;
-            this.letter51.Location = new System.Drawing.Point(22, 22);
+            this.letter51.Location = new System.Drawing.Point(16, 18);
+            this.letter51.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.letter51.Name = "letter51";
-            this.letter51.Size = new System.Drawing.Size(0, 16);
+            this.letter51.Size = new System.Drawing.Size(0, 13);
             this.letter51.TabIndex = 0;
             // 
             // gameName
@@ -648,9 +738,10 @@
             this.gameName.AutoSize = true;
             this.gameName.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F);
             this.gameName.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.gameName.Location = new System.Drawing.Point(21, 12);
+            this.gameName.Location = new System.Drawing.Point(16, 10);
+            this.gameName.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.gameName.Name = "gameName";
-            this.gameName.Size = new System.Drawing.Size(280, 48);
+            this.gameName.Size = new System.Drawing.Size(230, 39);
             this.gameName.TabIndex = 31;
             this.gameName.Text = "Угадай слово";
             // 
@@ -662,18 +753,20 @@
             this.panel31.Controls.Add(this.label1);
             this.panel31.Controls.Add(this.lablel);
             this.panel31.Controls.Add(this.gameName);
-            this.panel31.Location = new System.Drawing.Point(484, 46);
+            this.panel31.Location = new System.Drawing.Point(363, 37);
+            this.panel31.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel31.Name = "panel31";
-            this.panel31.Size = new System.Drawing.Size(322, 193);
+            this.panel31.Size = new System.Drawing.Size(242, 157);
             this.panel31.TabIndex = 32;
             // 
             // unGuessed
             // 
             this.unGuessed.AutoSize = true;
             this.unGuessed.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.unGuessed.Location = new System.Drawing.Point(232, 130);
+            this.unGuessed.Location = new System.Drawing.Point(174, 106);
+            this.unGuessed.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.unGuessed.Name = "unGuessed";
-            this.unGuessed.Size = new System.Drawing.Size(26, 29);
+            this.unGuessed.Size = new System.Drawing.Size(20, 24);
             this.unGuessed.TabIndex = 35;
             this.unGuessed.Text = "0";
             // 
@@ -681,9 +774,10 @@
             // 
             this.guessed.AutoSize = true;
             this.guessed.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.guessed.Location = new System.Drawing.Point(204, 84);
+            this.guessed.Location = new System.Drawing.Point(153, 68);
+            this.guessed.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.guessed.Name = "guessed";
-            this.guessed.Size = new System.Drawing.Size(26, 29);
+            this.guessed.Size = new System.Drawing.Size(20, 24);
             this.guessed.TabIndex = 34;
             this.guessed.Text = "0";
             // 
@@ -691,9 +785,10 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label1.Location = new System.Drawing.Point(24, 130);
+            this.label1.Location = new System.Drawing.Point(18, 106);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(213, 29);
+            this.label1.Size = new System.Drawing.Size(168, 24);
             this.label1.TabIndex = 33;
             this.label1.Text = "Не угадано слов: ";
             // 
@@ -701,9 +796,10 @@
             // 
             this.lablel.AutoSize = true;
             this.lablel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.lablel.Location = new System.Drawing.Point(24, 83);
+            this.lablel.Location = new System.Drawing.Point(18, 67);
+            this.lablel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lablel.Name = "lablel";
-            this.lablel.Size = new System.Drawing.Size(182, 29);
+            this.lablel.Size = new System.Drawing.Size(142, 24);
             this.lablel.TabIndex = 32;
             this.lablel.Text = "Угадано слов: ";
             // 
@@ -711,18 +807,19 @@
             // 
             this.label2.AutoSize = true;
             this.label2.ForeColor = System.Drawing.Color.DimGray;
-            this.label2.Location = new System.Drawing.Point(486, 266);
+            this.label2.Location = new System.Drawing.Point(364, 216);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(371, 112);
+            this.label2.Size = new System.Drawing.Size(296, 91);
             this.label2.TabIndex = 33;
             this.label2.Text = resources.GetString("label2.Text");
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(882, 553);
+            this.ClientSize = new System.Drawing.Size(662, 449);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.panel31);
             this.Controls.Add(this.panel30);
@@ -756,6 +853,7 @@
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.KeyPreview = true;
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyDown);

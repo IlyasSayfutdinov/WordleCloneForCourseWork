@@ -12,16 +12,35 @@ using System.IO;
 
 namespace kursovaya
 {
+
     public partial class Form1 : Form
     {
+
         public Form1()
         {
             InitializeComponent();
+            InitializeLetterTextBoxes();
+
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
             changeThoughtWord();
+        }
+
+        private Label[,] letters;
+
+        public void InitializeLetterTextBoxes()
+        {
+            letters = new Label[,]
+            {
+                { letter11, letter12, letter13, letter14, letter15 },
+                { letter21, letter22, letter23, letter24, letter25 },
+                { letter31, letter32, letter33, letter34, letter35 },
+                { letter41, letter42, letter43, letter44, letter45 },
+                { letter51, letter52, letter53, letter54, letter55 },
+                { letter61, letter62, letter63, letter64, letter65 }
+            };
         }
 
         public string thoughtWord = "     ";
@@ -32,14 +51,14 @@ namespace kursovaya
         {
             var rand = new Random();
             int randomWordNum = rand.Next(2301);
-            string pathWords = "C:\\Users\\ilyas\\source\\repos\\kursovaya\\kursovaya\\words.txt";
+            string pathWords = "..\\..\\words.txt";
             string[] words = File.ReadAllLines(pathWords);
             thoughtWord = words[randomWordNum];
         }
 
         public bool wordIsInList()
         {
-            string pathWords = "C:\\Users\\ilyas\\source\\repos\\kursovaya\\kursovaya\\words.txt";
+            string pathWords = "..\\..\\words.txt";
             string[] words = File.ReadAllLines(pathWords);
             for(int i = 0; i < 2300; i++)
             {
@@ -49,71 +68,24 @@ namespace kursovaya
             return false;
         }
 
+
+
         public void reset()
         {
             activeLetterNum = 0;
-            panel1.BackColor = Color.Silver;
-            panel2.BackColor = Color.Silver;
-            panel3.BackColor = Color.Silver;
-            panel4.BackColor = Color.Silver;
-            panel5.BackColor = Color.Silver;
-            panel7.BackColor = Color.Silver;
-            panel6.BackColor = Color.Silver;
-            panel8.BackColor = Color.Silver;
-            panel9.BackColor = Color.Silver;
-            panel10.BackColor = Color.Silver;
-            panel11.BackColor = Color.Silver;
-            panel12.BackColor = Color.Silver;
-            panel13.BackColor = Color.Silver;
-            panel14.BackColor = Color.Silver;
-            panel15.BackColor = Color.Silver;
-            panel16.BackColor = Color.Silver;
-            panel17.BackColor = Color.Silver;
-            panel18.BackColor = Color.Silver;
-            panel19.BackColor = Color.Silver;
-            panel20.BackColor = Color.Silver;
-            panel21.BackColor = Color.Silver;
-            panel22.BackColor = Color.Silver;
-            panel23.BackColor = Color.Silver;
-            panel24.BackColor = Color.Silver;
-            panel25.BackColor = Color.Silver;
-            panel26.BackColor = Color.Silver;
-            panel27.BackColor = Color.Silver;
-            panel28.BackColor = Color.Silver;
-            panel29.BackColor = Color.Silver;
-            panel30.BackColor = Color.Silver;
-            letter11.Text = "";
-            letter12.Text = "";
-            letter13.Text = "";
-            letter14.Text = "";
-            letter15.Text = "";
-            letter21.Text = "";
-            letter22.Text = "";
-            letter23.Text = "";
-            letter24.Text = "";
-            letter25.Text = "";
-            letter31.Text = "";
-            letter32.Text = "";
-            letter33.Text = "";
-            letter34.Text = "";
-            letter35.Text = "";
-            letter41.Text = "";
-            letter42.Text = "";
-            letter43.Text = "";
-            letter44.Text = "";
-            letter45.Text = "";
-            letter51.Text = "";
-            letter52.Text = "";
-            letter53.Text = "";
-            letter54.Text = "";
-            letter55.Text = "";
-            letter61.Text = "";
-            letter62.Text = "";
-            letter63.Text = "";
-            letter64.Text = "";
-            letter65.Text = "";
+            var panelsWithTag = Controls.OfType<Panel>().Where(panel => panel.Tag != null && panel.Tag.ToString() == "Panels");
+
+            foreach (var panel in panelsWithTag)
+            {
+                panel.BackColor = Color.Silver;
+            }
+
+            foreach (Label letter in letters)
+            {
+                letter.Text = "";
+            }
         }
-        
+
         public int activeLetterNum = 1;
         private void Form1_KeyDown(object sender, KeyEventArgs e)
         {
@@ -184,7 +156,7 @@ namespace kursovaya
                     activeLetterNum--;
                     enteredWord = enteredWord.Remove(3, 1).Insert(4, " ");
                 }
-                else if(e.KeyCode != Keys.Enter)
+                else if (e.KeyCode != Keys.Enter)
                 {
                     letter15.Text = e.KeyCode.ToString();
                     enteredWord = enteredWord.Remove(4, 1).Insert(4, e.KeyCode.ToString());
